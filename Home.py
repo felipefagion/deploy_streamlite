@@ -182,7 +182,7 @@ def mostrar_projeto(imagem_url, titulo, descricao, linguagem, link):
         st.write(f"[Veja no GitHub]({link})")
 
 # Criar duas colunas para os botões
-col1, col2 = st.columns(1, 2)
+col1, col2 = st.columns(2)
 
 # Definir o estado dos botões
 projetos_button = col1.button("📂 Projetos")
