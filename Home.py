@@ -128,7 +128,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Configuração das colunas
-col1, col2 = st.columns([0.65, 3])
+col1, col2 = st.columns([1, 3])
 
 # Exibir imagem na primeira coluna
 with col1:
