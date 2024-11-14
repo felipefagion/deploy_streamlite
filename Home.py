@@ -2,66 +2,6 @@ import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image
 
-
-st.markdown("""
-    <style>
-        body {
-            background-color: #121212;
-            color: white;
-            font-family: Arial, sans-serif;
-        }
-
-        .sidebar .sidebar-content {
-            background-color: #121212;
-            color: white;
-        }
-
-        .css-18e3th9 {
-            background-color: #121212;
-        }
-
-        /* Responsividade */
-        @media only screen and (max-width: 768px) {
-            h1 {
-                font-size: 1.5em;
-            }
-
-            .social-icons {
-                justify-content: center;
-            }
-
-            .icon {
-                width: 30px;
-            }
-
-            #particles-middle {
-                width: 60%;
-                height: 60%;
-            }
-
-            .stApp {
-                height: 100%;
-                overflow: auto;
-            }
-        }
-
-        /* Para telas grandes */
-        @media only screen and (min-width: 769px) {
-            .stApp {
-                height: 100vh;
-                overflow: hidden;
-            }
-            #particles-middle {
-                width: 40%;
-                height: 40%;
-            }
-        }
-    </style>
-""", unsafe_allow_html=True)
-
-
-
-
 # Definir o tema escuro fixo
 st.set_page_config(
     page_title="Sobre Mim",  # Título da página
