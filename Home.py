@@ -119,25 +119,22 @@ def set_bg_particles_middle():
 
 set_bg_particles_middle()
 
+# Configuração das colunas
+col1, col2 = st.columns([0.8, 3])  # Ajuste proporcional para a imagem e o texto
 
+# Exibir imagem redimensionada na primeira coluna
+with col1:
+    image = Image.open("foto_pessoal.jfif")  # Substitua pelo caminho da sua imagem
+    st.image(image, use_column_width=True, caption="Felipe Fagion")  # Ajusta a largura à coluna
 
-# Seção "Sobre Mim" com título centralizado e em destaque
-st.markdown("""
+# Biografia na segunda coluna
+with col2:
+    # Título "Sobre Mim" centralizado
+    st.markdown("""
     <h1 style="text-align: center; font-size: 3em; margin-top: 0px;">
         Sobre Mim
     </h1>
 """, unsafe_allow_html=True)
-
-# Configuração das colunas
-col1, col2 = st.columns([2, 10])
-
-# Exibir imagem na primeira coluna
-with col1:
-    image = Image.open("foto_pessoal.jfif")  # Substitua pelo caminho da sua imagem
-    st.image(image, width=175)
-
-# Biografia na segunda coluna
-with col2:
     st.write("""
         Felipe tem 27 anos, gosta de equilibrar seu tempo entre estudos, trabalho e lazer. Como estudante de Ciência de Dados na Universidade Presbiteriana Mackenzie e profissional em uma das maiores construtoras do país, ele atua diretamente no uso da análise de dados para gerar insights e no setor de construção civil.
 
@@ -150,13 +147,13 @@ with col2:
 st.markdown("""
     <style>
         .icon {
-            width: 40px;
-            margin: 0 10px;
+            width: 40px;  /* Tamanho do ícone */
+            margin: 0 10px;  /* Espaçamento lateral */
         }
         .social-icons {
             display: flex;
-            justify-content: flex-end;
-            margin-top: 20px;
+            justify-content: center;  /* Alinha os ícones ao centro */
+            margin-top: 20px;  /* Espaçamento superior */
         }
     </style>
     
@@ -182,7 +179,6 @@ def mostrar_projeto(imagem_url, titulo, descricao, linguagem, link):
         st.write(descricao)  # Descrição do projeto.
         st.write(linguagem)  # Linguagem utilizada.
         st.write(f"[Veja no GitHub]({link})", unsafe_allow_html=True) 
-
 # Criar duas colunas para os botões
 col1, col2 = st.columns(2)
 
