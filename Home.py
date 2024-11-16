@@ -181,7 +181,7 @@ def mostrar_projeto(imagem_url, titulo, descricao, linguagem, link):
         st.markdown(f"### {titulo}")  # Título em destaque.
         st.write(descricao)  # Descrição do projeto.
         st.write(linguagem)  # Linguagem utilizada.
-        st.markdown(f"[Saiba mais]({link})", unsafe_allow_html=True) 
+        st.write(f"[Veja no GitHub]({link})", unsafe_allow_html=True) 
 
 # Criar duas colunas para os botões
 col1, col2 = st.columns(2)
