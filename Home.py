@@ -171,16 +171,17 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# Função para exibir cada projeto com imagem, descrição e link
 def mostrar_projeto(imagem_url, titulo, descricao, linguagem, link):
-    col1, col2 = st.columns([1, 2])
+    col1, col2 = st.columns([1, 2])  # Define duas colunas, uma menor para a imagem e outra maior para o texto.
+    
     with col1:
-        st.image(imagem_url, width=370)
+        st.image(imagem_url, use_column_width=True)  # Garante que a imagem se ajuste à largura da coluna.
+    
     with col2:
-        st.write(f"### {titulo}")
-        st.write(descricao)
-        st.write(linguagem)
-        st.write(f"[Veja no GitHub]({link})")
+        st.markdown(f"### {titulo}")  # Título em destaque.
+        st.write(descricao)  # Descrição do projeto.
+        st.write(linguagem)  # Linguagem utilizada.
+        st.markdown(f"[Saiba mais]({link})", unsafe_allow_html=True) 
 
 # Criar duas colunas para os botões
 col1, col2 = st.columns(2)
