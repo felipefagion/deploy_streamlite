@@ -9,6 +9,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",  # Estado da barra lateral
 )
 
+
 # Definir o tema escuro através de CSS
 st.markdown("""
     <style>
@@ -128,7 +129,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Configuração das colunas
-col1, col2 = st.columns([1, 3])
+col1, col2 = st.columns([2, 10])
 
 # Exibir imagem na primeira coluna
 with col1:
@@ -137,7 +138,7 @@ with col1:
 
 # Biografia na segunda coluna
 with col2:
-    st.markdown("""
+    st.write("""
         Felipe tem 27 anos, gosta de equilibrar seu tempo entre estudos, trabalho e lazer. Como estudante de Ciência de Dados na Universidade Presbiteriana Mackenzie e profissional em uma das maiores construtoras do país, ele atua diretamente no uso da análise de dados para gerar insights e no setor de construção civil.
 
         Felipe é uma pessoa que preza pelo equilíbrio. Nos momentos de lazer, ele gosta de relaxar, seja lendo um livro ou assistindo esportes. Mas é nos games que ele encontra sua diversão preferida. Jogar no computador é uma das suas formas favoritas de relaxar, além de uma ótima maneira de se conectar com os amigos.
