@@ -152,7 +152,7 @@ st.markdown("""
         }
         .social-icons {
             display: flex;
-            justify-content: center;  /* Alinha os ícones ao centro */
+            justify-content: right; 
             margin-top: 20px;  /* Espaçamento superior */
         }
     </style>
@@ -167,7 +167,8 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-
+st.write('')
+st.write('')
 def mostrar_projeto(imagem_url, titulo, descricao, linguagem, link):
     col1, col2 = st.columns([1, 2])  # Define duas colunas, uma menor para a imagem e outra maior para o texto.
     
@@ -227,8 +228,6 @@ if projetos_button:
     )
 # Se o botão "Currículo" for pressionado
 elif curriculo_button:
-
-
     # Mostrando as principais informações do currículo
     st.write("""
     **Felipe Fagion Longarini**  
