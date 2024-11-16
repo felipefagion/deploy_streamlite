@@ -120,12 +120,12 @@ def set_bg_particles_middle():
 set_bg_particles_middle()
 
 # Configuração das colunas
-col1, col2 = st.columns([0.8, 3])  # Ajuste proporcional para a imagem e o texto
+col1, col2 = st.columns([0.8, 3]) 
 
 # Exibir imagem redimensionada na primeira coluna
 with col1:
-    image = Image.open("foto_pessoal.jfif")  # Substitua pelo caminho da sua imagem
-    st.image(image, use_column_width=True, caption="Felipe Fagion")  # Ajusta a largura à coluna
+    image = Image.open("foto_pessoal.jfif") 
+    st.image(image, use_column_width=True)
 
 # Biografia na segunda coluna
 with col2:
@@ -170,10 +170,10 @@ st.markdown("""
 st.write('')
 st.write('')
 def mostrar_projeto(imagem_url, titulo, descricao, linguagem, link):
-    col1, col2 = st.columns([1, 2])  # Define duas colunas, uma menor para a imagem e outra maior para o texto.
+    col1, col2 = st.columns([1, 2])  
     
     with col1:
-        st.image(imagem_url, use_column_width=True)  # Garante que a imagem se ajuste à largura da coluna.
+        st.image(imagem_url, use_column_width=True)  
     
     with col2:
         st.markdown(f"### {titulo}")  # Título em destaque.
