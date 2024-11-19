@@ -120,12 +120,12 @@ def set_bg_particles_middle():
 set_bg_particles_middle()
 
 # Configuração das colunas
-col1, col2 = st.columns([0.8, 10])  # Ajuste proporcional para a imagem e o texto
+col1, col2 = st.columns([1, 10])  # Ajuste proporcional para a imagem e o texto
 
 # Exibir imagem redimensionada na primeira coluna
 with col1:
     image = Image.open("foto_pessoal.jfif")  # Substitua pelo caminho da sua imagem
-    st.image(image, use_column_width=True, caption="Felipe Fagion")  # Ajusta a largura à coluna
+    st.image(image, use_column_width=True)  # Ajusta a largura à coluna
 
 # Biografia na segunda coluna
 with col2:
