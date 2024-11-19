@@ -138,12 +138,18 @@ with col1:
 # Biografia na segunda coluna
 with col2:
     st.write("""
-        Felipe tem 27 anos, gosta de equilibrar seu tempo entre estudos, trabalho e lazer. Como estudante de Ciência de Dados na Universidade Presbiteriana Mackenzie e profissional em uma das maiores construtoras do país, ele atua diretamente no uso da análise de dados para gerar insights e no setor de construção civil.
+    Felipe tem 27 anos, gosta de equilibrar seu tempo entre estudos, trabalho e lazer. Como estudante de Ciência de Dados na Universidade Presbiteriana Mackenzie e profissional em uma das maiores construtoras do país, ele atua diretamente no uso da análise de dados para gerar insights e no setor de construção civil.
 
-        Felipe é uma pessoa que preza pelo equilíbrio. Nos momentos de lazer, ele gosta de relaxar, seja lendo um livro ou assistindo esportes. Mas é nos games que ele encontra sua diversão preferida. Jogar no computador é uma das suas formas favoritas de relaxar, além de uma ótima maneira de se conectar com os amigos.
+    Felipe é uma pessoa que preza pelo equilíbrio. Nos momentos de lazer, ele gosta de relaxar, seja lendo um livro ou assistindo esportes. Mas é nos games que ele encontra sua diversão preferida. Jogar no computador é uma das suas formas favoritas de relaxar, além de uma ótima maneira de se conectar com os amigos.
 
-        Com essa mistura de interesses, acredita que sempre há algo novo para aprender, e ele não perde a chance de expandir seus conhecimentos, seja nas aulas, no trabalho ou nas conversas de dia a dia com outras pessoas. Movido pela curiosidade e pela vontade de entender mais sobre a área de dados, ele encara a tecnologia como uma ferramenta poderosa para resolver problemas e criar oportunidades.
-    """)
+    Com essa mistura de interesses, acredita que sempre há algo novo para aprender, e ele não perde a chance de expandir seus conhecimentos, seja nas aulas, no trabalho ou nas conversas de dia a dia com outras pessoas. Movido pela curiosidade e pela vontade de entender mais sobre a área de dados, ele encara a tecnologia como uma ferramenta poderosa para resolver problemas e criar oportunidades.
+
+    Atualmente, Felipe dedica-se a projetos que envolvem análise de dados avançada, desenvolvendo soluções que auxiliam a tomada de decisão estratégica. Ele acredita que a união entre conhecimento técnico e criatividade é essencial para transformar desafios em resultados práticos.
+
+    Felipe também valoriza o trabalho em equipe, entendendo que as melhores ideias surgem da colaboração. Para ele, o aprendizado é constante, e ele está sempre disposto a contribuir com sua expertise enquanto absorve novas perspectivas dos colegas.
+
+    Inspirado pelo impacto positivo que os dados podem gerar, ele sonha em construir um futuro onde a tecnologia seja cada vez mais acessível e beneficie pessoas de diferentes realidades.
+""")
 
 # Estilo para os ícones das redes sociais
 st.markdown("""
