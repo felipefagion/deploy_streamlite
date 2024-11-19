@@ -119,6 +119,14 @@ def set_bg_particles_middle():
 
 set_bg_particles_middle()
 
+with col2:
+    # Título "Sobre Mim" centralizado
+    st.markdown("""
+    <h1 style="text-align: center; font-size: 3em; margin-top: 0px;">
+        Sobre Mim
+    </h1>
+""", unsafe_allow_html=True)
+
 # Configuração das colunas
 col1, col2 = st.columns([0.6, 3])  # Ajuste proporcional para a imagem e o texto
 
@@ -128,13 +136,7 @@ with col1:
     st.image(image, use_column_width=True)  # Ajusta a largura à coluna
 
 # Biografia na segunda coluna
-with col2:
-    # Título "Sobre Mim" centralizado
-    st.markdown("""
-    <h1 style="text-align: center; font-size: 3em; margin-top: 0px;">
-        Sobre Mim
-    </h1>
-""", unsafe_allow_html=True)
+
     st.write("""
         Felipe tem 27 anos, gosta de equilibrar seu tempo entre estudos, trabalho e lazer. Como estudante de Ciência de Dados na Universidade Presbiteriana Mackenzie e profissional em uma das maiores construtoras do país, ele atua diretamente no uso da análise de dados para gerar insights e no setor de construção civil.
 
