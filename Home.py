@@ -119,23 +119,14 @@ def set_bg_particles_middle():
 
 set_bg_particles_middle()
 
-# Configuração das colunas
-col1, col2 = st.columns([0.4, 3]) 
 
-# Exibir imagem redimensionada na primeira coluna
-with col1:
-    image = Image.open("foto_pessoal.jfif") 
-    st.image(image, use_column_width=True)
-
-# Biografia na segunda coluna
-with col2:
-    # Título "Sobre Mim" centralizado
-    st.markdown("""
+# Título "Sobre Mim" centralizado
+st.markdown("""
     <h1 style="text-align: center; font-size: 3em; margin-top: 0px;">
         Sobre Mim
     </h1>
 """, unsafe_allow_html=True)
-    st.write("""
+st.write("""
         Felipe tem 27 anos, gosta de equilibrar seu tempo entre estudos, trabalho e lazer. Como estudante de Ciência de Dados na Universidade Presbiteriana Mackenzie e profissional em uma das maiores construtoras do país, ele atua diretamente no uso da análise de dados para gerar insights e no setor de construção civil.
 
         Felipe é uma pessoa que preza pelo equilíbrio. Nos momentos de lazer, ele gosta de relaxar, seja lendo um livro ou assistindo esportes. Mas é nos games que ele encontra sua diversão preferida. Jogar no computador é uma das suas formas favoritas de relaxar, além de uma ótima maneira de se conectar com os amigos.
