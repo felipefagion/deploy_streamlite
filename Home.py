@@ -120,7 +120,7 @@ def set_bg_particles_middle():
 set_bg_particles_middle()
 
 # Configuração das colunas
-col1, col2 = st.columns([0.8, 2])  # Ajuste proporcional para a imagem e o texto
+col1, col2 = st.columns([0.8, 10])  # Ajuste proporcional para a imagem e o texto
 
 # Exibir imagem redimensionada na primeira coluna
 with col1:
