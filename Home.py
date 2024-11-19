@@ -160,15 +160,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.write('')
-# Configuração das colunas
-col1, col2 = st.columns([0.4, 3]) 
 
-
-
-# Biografia na segunda coluna
-with col1:
-    image = Image.open("foto_pessoal.jfif")  # Substitua pelo caminho da sua imagem
-    st.image(image, use_column_width=True, caption="Felipe Fagion")  # Ajusta a largura à coluna
+image = Image.open("foto_pessoal.jfif")  # Substitua pelo caminho da sua imagem
+st.image(image, use_column_width=True, caption="Felipe Fagion")  # Ajusta a largura à coluna
     
 def mostrar_projeto(imagem_url, titulo, descricao, linguagem, link):
     col1, col2 = st.columns([1, 2])  
