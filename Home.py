@@ -141,7 +141,15 @@ with col2:
         Felipe é uma pessoa que preza pelo equilíbrio. Nos momentos de lazer, ele gosta de relaxar, seja lendo um livro ou assistindo esportes. Mas é nos games que ele encontra sua diversão preferida. Jogar no computador é uma das suas formas favoritas de relaxar, além de uma ótima maneira de se conectar com os amigos.
 
         Com essa mistura de interesses, acredita que sempre há algo novo para aprender, e ele não perde a chance de expandir seus conhecimentos, seja nas aulas, no trabalho ou nas conversas de dia a dia com outras pessoas. Movido pela curiosidade e pela vontade de entender mais sobre a área de dados, ele encara a tecnologia como uma ferramenta poderosa para resolver problemas e criar oportunidades.
-    """)
+    Felipe tem 27 anos, gosta de equilibrar seu tempo entre estudos, trabalho e lazer. Como estudante de Ciência de Dados na Universidade Presbiteriana Mackenzie e profissional em uma das maiores construtoras do país, ele atua diretamente no uso da análise de dados para gerar insights e no setor de construção civil.
+
+        Felipe é uma pessoa que preza pelo equilíbrio. Nos momentos de lazer, ele gosta de relaxar, seja lendo um livro ou assistindo esportes. Mas é nos games que ele encontra sua diversão preferida. Jogar no computador é uma das suas formas favoritas de relaxar, além de uma ótima maneira de se conectar com os amigos.
+
+        Com essa mistura de interesses, acredita que sempre há algo novo para aprender, e ele não perde a chance de expandir seus conhecimentos, seja nas aulas, no trabalho ou nas conversas de dia a dia com outras pessoas. Movido pela curiosidade e pela vontade de entender mais sobre a área de dados, ele encara a tecnologia como uma ferramenta poderosa para resolver problemas e criar oportunidades.Felipe tem 27 anos, gosta de equilibrar seu tempo entre estudos, trabalho e lazer. Como estudante de Ciência de Dados na Universidade Presbiteriana Mackenzie e profissional em uma das maiores construtoras do país, ele atua diretamente no uso da análise de dados para gerar insights e no setor de construção civil.
+
+        Felipe é uma pessoa que preza pelo equilíbrio. Nos momentos de lazer, ele gosta de relaxar, seja lendo um livro ou assistindo esportes. Mas é nos games que ele encontra sua diversão preferida. Jogar no computador é uma das suas formas favoritas de relaxar, além de uma ótima maneira de se conectar com os amigos.
+
+        Com essa mistura de interesses, acredita que sempre há algo novo para aprender, e ele não perde a chance de expandir seus conhecimentos, seja nas aulas, no trabalho ou nas conversas de dia a dia com outras pessoas. Movido pela curiosidade e pela vontade de entender mais sobre a área de dados, ele encara a tecnologia como uma ferramenta poderosa para resolver problemas e criar oportunidades.""")
 
 # Estilo para os ícones das redes sociais
 st.markdown("""
