@@ -124,6 +124,8 @@ col1, col2 = st.columns([1, 10])  # Ajuste proporcional para a imagem e o texto
 
 # Exibir imagem redimensionada na primeira coluna
 with col1:
+    st.write('')
+    st.write('')
     image = Image.open("foto_pessoal.jfif")  # Substitua pelo caminho da sua imagem
     st.image(image, use_column_width=True)  # Ajusta a largura à coluna
 
