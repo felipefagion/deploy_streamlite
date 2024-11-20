@@ -138,17 +138,11 @@ with col1:
 # Biografia na segunda coluna
 with col2:
     st.write("""
-    Felipe tem 27 anos, gosta de equilibrar seu tempo entre estudos, trabalho e lazer. Como estudante de Ciência de Dados na Universidade Presbiteriana Mackenzie e profissional em uma das maiores construtoras do país, ele atua diretamente no uso da análise de dados para gerar insights e no setor de construção civil.
-
-    Felipe é uma pessoa que preza pelo equilíbrio. Nos momentos de lazer, ele gosta de relaxar, seja lendo um livro ou assistindo esportes. Mas é nos games que ele encontra sua diversão preferida. Jogar no computador é uma das suas formas favoritas de relaxar, além de uma ótima maneira de se conectar com os amigos.
-
-    Com essa mistura de interesses, acredita que sempre há algo novo para aprender, e ele não perde a chance de expandir seus conhecimentos, seja nas aulas, no trabalho ou nas conversas de dia a dia com outras pessoas. Movido pela curiosidade e pela vontade de entender mais sobre a área de dados, ele encara a tecnologia como uma ferramenta poderosa para resolver problemas e criar oportunidades.
-
-    Atualmente, Felipe dedica-se a projetos que envolvem análise de dados avançada, desenvolvendo soluções que auxiliam a tomada de decisão estratégica. Ele acredita que a união entre conhecimento técnico e criatividade é essencial para transformar desafios em resultados práticos.
-
-    Felipe também valoriza o trabalho em equipe, entendendo que as melhores ideias surgem da colaboração. Para ele, o aprendizado é constante, e ele está sempre disposto a contribuir com sua expertise enquanto absorve novas perspectivas dos colegas.
-
-    Inspirado pelo impacto positivo que os dados podem gerar, ele sonha em construir um futuro onde a tecnologia seja cada vez mais acessível e beneficie pessoas de diferentes realidades.
+    Nascido em Americana, no coração do estado de São Paulo, aos 27 anos, construo minha trajetória com base em três pilares sólidos: a dedicação aos estudos, a entrega ao trabalho e pelos momentos de lazer. Cada um desses aspectos contribui para moldar quem sou e para onde desejo levar minha carreira e minha vida.
+Minhas horas de descanso são preenchidas com atividades que me trazem alegria e relaxamento, como assistir a partidas de futebol e me perder nas páginas de um bom livro. No entanto, é no universo dos games que encontro minha maior diversão, especialmente por ser uma oportunidade incrível de compartilhar momentos de descontração e estratégia com os amigos.
+Paralelamente, minha jornada acadêmica na Universidade Presbiteriana Mackenzie, cursando Ciência de Dados, é um caminho escolhido com propósito. Através dele, busco as ferramentas e o conhecimento necessário para interpretar o mundo através do mundo dos dados. Na Tenda Construtora, uma das gigantes do setor de construção civil no país, aplico esse conhecimento em um ambiente dinâmico e repleto de oportunidades. Lá, minhas responsabilidades vão desde a manutenção e análise de grandes volumes de dados até a criação de relatórios que embasam decisões estratégicas fundamentais para o negócio. Utilizo uma combinação de linguagens de programação como Python, consultas SQL para extrair informações de bancos de dados, a versatilidade do Excel e a visualização de dados com Power BI.
+Essa rotina é equilibrada com um espírito de aprendizado contínuo e uma busca por inovação. Cada projeto, cada linha de código e cada análise é uma oportunidade de crescer não apenas como profissional, mas também como indivíduo. Acredito firmemente no poder dos dados de transformar indústrias e impulsionar mudanças significativas, e é com essa convicção que me dedico a cada tarefa que assumo.
+Minha biografia é, portanto, uma mistura de ambição profissional e paixões pessoais, tecendo uma história que é tão única quanto a jornada que escolhi trilhar. É com esse espírito que enfrento cada novo dia, sempre pronto para o próximo desafio.
 """)
 
 # Estilo para os ícones das redes sociais
