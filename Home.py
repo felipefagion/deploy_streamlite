@@ -9,6 +9,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",  # Estado da barra lateral
 )
 
+
 # Definir o tema escuro através de CSS
 st.markdown("""
     <style>
@@ -119,43 +120,51 @@ def set_bg_particles_middle():
 set_bg_particles_middle()
 
 
-
-# Seção "Sobre Mim" com título centralizado e em destaque
+    # Título "Sobre Mim" centralizado
 st.markdown("""
     <h1 style="text-align: center; font-size: 3em; margin-top: 0px;">
         Sobre Mim
     </h1>
 """, unsafe_allow_html=True)
+st.write('')
+st.write('')
 
 # Configuração das colunas
-col1, col2 = st.columns([1, 3])
+col1, col2 = st.columns([0.7, 3])  # Ajuste proporcional para a imagem e o texto
 
-# Exibir imagem na primeira coluna
+# Exibir imagem redimensionada na primeira coluna
 with col1:
     image = Image.open("foto_pessoal.jfif")  # Substitua pelo caminho da sua imagem
-    st.image(image, width=175)
+    st.image(image, use_column_width=True)  # Ajusta a largura à coluna
 
 # Biografia na segunda coluna
 with col2:
-    st.markdown("""
-        Felipe tem 27 anos, gosta de equilibrar seu tempo entre estudos, trabalho e lazer. Como estudante de Ciência de Dados na Universidade Presbiteriana Mackenzie e profissional em uma das maiores construtoras do país, ele atua diretamente no uso da análise de dados para gerar insights e no setor de construção civil.
+    st.write("""
+Nascido em Americana, no coração do estado de São Paulo, aos 27 anos, construo minha trajetória com base em três pilares sólidos: a dedicação aos estudos, a entrega ao trabalho e os momentos de lazer. Cada um desses aspectos contribui para moldar quem sou e para onde desejo levar minha carreira e minha vida.
 
-        Felipe é uma pessoa que preza pelo equilíbrio. Nos momentos de lazer, ele gosta de relaxar, seja lendo um livro ou assistindo esportes. Mas é nos games que ele encontra sua diversão preferida. Jogar no computador é uma das suas formas favoritas de relaxar, além de uma ótima maneira de se conectar com os amigos.
+Minhas horas de descanso são preenchidas com atividades que me trazem alegria e relaxamento, como assistir a partidas de futebol e me perder nas páginas de um bom livro. No entanto, é no universo dos games que encontro minha maior diversão, especialmente por ser uma oportunidade incrível de compartilhar momentos de descontração e estratégia com os amigos.
 
-        Com essa mistura de interesses, acredita que sempre há algo novo para aprender, e ele não perde a chance de expandir seus conhecimentos, seja nas aulas, no trabalho ou nas conversas de dia a dia com outras pessoas. Movido pela curiosidade e pela vontade de entender mais sobre a área de dados, ele encara a tecnologia como uma ferramenta poderosa para resolver problemas e criar oportunidades.
-    """)
+Paralelamente, minha jornada acadêmica na Universidade Presbiteriana Mackenzie, cursando Ciência de Dados, é um caminho escolhido com propósito. Através dele, busco as ferramentas e o conhecimento necessário para interpretar o mundo através do universo dos dados.
+
+Na Tenda Construtora, uma das gigantes do setor de construção civil no país, aplico esse conhecimento em um ambiente dinâmico e repleto de oportunidades. Lá, minhas responsabilidades vão desde a validação e manutenção de grandes volumes de dados até a criação de relatórios que apoiam decisões estratégicas fundamentais para o negócio. Utilizo uma combinação de linguagens de programação como Python e Excel para códigos e fórmulas de validação de dados, além de SQL para extrair informações de bancos de dados e construir novos indicadores.
+
+Essa rotina é equilibrada com um espírito de aprendizado contínuo e uma busca por inovação. Cada projeto, cada linha de código e cada análise é uma oportunidade de crescer não apenas como profissional, mas também como indivíduo. Acredito firmemente no poder dos dados de transformar indústrias e impulsionar mudanças significativas, e é com essa convicção que me dedico a cada tarefa que assumo.
+
+Minha biografia é, portanto, uma mistura de ambição profissional e paixões pessoais, tecendo uma história que é tão única quanto a jornada que escolhi trilhar. É com esse espírito que enfrento cada novo dia, sempre pronto para o próximo desafio.
+""")
+
 
 # Estilo para os ícones das redes sociais
 st.markdown("""
     <style>
         .icon {
-            width: 40px;
-            margin: 0 10px;
+            width: 40px;  /* Tamanho do ícone */
+            margin: 0 10px;  /* Espaçamento lateral */
         }
         .social-icons {
             display: flex;
-            justify-content: flex-end;
-            margin-top: 20px;
+            justify-content: right; 
+            margin-top: 20px;  /* Espaçamento superior */
         }
     </style>
     
@@ -169,18 +178,20 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
+st.write('')
 
-# Função para exibir cada projeto com imagem, descrição e link
+    
 def mostrar_projeto(imagem_url, titulo, descricao, linguagem, link):
-    col1, col2 = st.columns([1, 2])
+    col1, col2 = st.columns([1, 2])  
+    
     with col1:
-        st.image(imagem_url, width=370)
+        st.image(imagem_url, use_column_width=True)  
+    
     with col2:
-        st.write(f"### {titulo}")
-        st.write(descricao)
-        st.write(linguagem)
-        st.write(f"[Veja no GitHub]({link})")
-
+        st.markdown(f"### {titulo}")  # Título em destaque.
+        st.write(descricao)  # Descrição do projeto.
+        st.write(linguagem)  # Linguagem utilizada.
+        st.write(f"[Veja no GitHub]({link})", unsafe_allow_html=True) 
 # Criar duas colunas para os botões
 col1, col2 = st.columns(2)
 
@@ -214,7 +225,7 @@ if projetos_button:
     mostrar_projeto(
         imagem_url="https://github.com/felipefagion/mackenzie_projeto_aplicado/blob/main/Imagens/image_resized.png?raw=true",
         titulo="Análise Exploratória de Imóveis ",
-        descricao="Este estudo tem como objetivo analisar os padrões de moradias e imóveis na capital paulista, com foco em como o acesso facilitado a transportes urbanos, como o metrô, pode influenciar o aumento dos alugueis e dos preços de imóveis.",
+        descricao="O presente estudo tem como objetivo realizar uma análise exploratória aprofundada sobre as variáveis presentes em uma base de dados de imóveis na cidade de São Paulo. Tratou-se de um projeto colaborativo no qual desempenhei um papel significativo, concentrando-me especialmente na elaboração de gráficos, bem como na exploração e descrição detalhada das variáveis analisadas.",
         linguagem='Liguagem Utilizada: Python',
         link="https://github.com/felipefagion/mackenzie_projeto_aplicado/blob/main/scripts/analise_exploratoria.ipynb"
     )
@@ -229,8 +240,6 @@ if projetos_button:
     )
 # Se o botão "Currículo" for pressionado
 elif curriculo_button:
-
-
     # Mostrando as principais informações do currículo
     st.write("""
     **Felipe Fagion Longarini**  
@@ -287,10 +296,10 @@ elif curriculo_button:
     st.write("- Inglês Básico")
 
     st.subheader("Currículo")
-    with open("Currículo - Felipe Fagion Longarini.docx", "rb") as file:
+    with open("curriculo.docx", "rb") as file:
         st.download_button(
             label="Baixar Currículo",
             data=file,
-            file_name="Curriculo - Felipe Fagion Longarini.docx",
+            file_name="Curriculo - Felipe Fagion Longarini .docx",
             mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
         )
