@@ -300,6 +300,6 @@ elif curriculo_button:
         st.download_button(
             label="Baixar Currículo",
             data=file,
-            file_name="Curriculo - Felipe Fagion Longarini.docx",
+            file_name="Curriculo - Felipe Fagion Longarini .docx",
             mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
         )
