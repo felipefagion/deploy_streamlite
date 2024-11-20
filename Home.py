@@ -128,7 +128,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Configuração das colunas
-col1, col2 = st.columns([0.6, 3])  # Ajuste proporcional para a imagem e o texto
+col1, col2 = st.columns([0.7, 3])  # Ajuste proporcional para a imagem e o texto
 
 # Exibir imagem redimensionada na primeira coluna
 with col1:
@@ -223,7 +223,7 @@ if projetos_button:
     mostrar_projeto(
         imagem_url="https://github.com/felipefagion/mackenzie_projeto_aplicado/blob/main/Imagens/image_resized.png?raw=true",
         titulo="Análise Exploratória de Imóveis ",
-        descricao="Este estudo tem como objetivo analisar os padrões de moradias e imóveis na capital paulista, com foco em como o acesso facilitado a transportes urbanos, como o metrô, pode influenciar o aumento dos alugueis e dos preços de imóveis.",
+        descricao="Este estudo tem como objetivo analisar os padrões de moradias e imóveis na capital paulista",
         linguagem='Liguagem Utilizada: Python',
         link="https://github.com/felipefagion/mackenzie_projeto_aplicado/blob/main/scripts/analise_exploratoria.ipynb"
     )
