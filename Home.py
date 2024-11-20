@@ -140,7 +140,7 @@ with col1:
 # Biografia na segunda coluna
 with col2:
     st.write("""
-Nascido em Americana, no coração do estado de São Paulo, aos 27 anos, construo minha trajetória com base em três pilares sólidos: a dedicação aos estudos, a entrega ao trabalho e os momentos de lazer. Cada um desses aspectos contribui para moldar quem sou e para onde desejo levar minha carreira e minha vida.
+Nascido em Americana, no coração do estado de São Paulo, aos 27 anos, tenho constrido minha trajetória e minha carreira com base em três pilares: a dedicação aos estudos, a entrega ao trabalho e os momentos de lazer. Cada um desses aspectos contribui para moldar quem sou e para onde desejo levar minha carreira e minha vida.
 
 Minhas horas de descanso são preenchidas com atividades que me trazem alegria e relaxamento, como assistir a partidas de futebol e me perder nas páginas de um bom livro. No entanto, é no universo dos games que encontro minha maior diversão, especialmente por ser uma oportunidade incrível de compartilhar momentos de descontração e estratégia com os amigos.
 
@@ -296,7 +296,7 @@ elif curriculo_button:
     st.write("- Inglês Básico")
 
     st.subheader("Currículo")
-    with open("curriculo.docx", "rb") as file:
+    with open("Curriculo - Felipe Fagion Longarini.docx", "rb") as file:
         st.download_button(
             label="Baixar Currículo",
             data=file,
