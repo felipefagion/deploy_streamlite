@@ -225,7 +225,7 @@ if projetos_button:
     mostrar_projeto(
         imagem_url="https://github.com/felipefagion/mackenzie_projeto_aplicado/blob/main/Imagens/image_resized.png?raw=true",
         titulo="Análise Exploratória de Imóveis ",
-        descricao="Este estudo tem como objetivo analisar os padrões de moradias e imóveis na capital paulista",
+        descricao="O presente estudo tem como objetivo realizar uma análise exploratória aprofundada sobre as variáveis presentes em uma base de dados de imóveis na cidade de São Paulo. Tratou-se de um projeto colaborativo no qual desempenhei um papel significativo, concentrando-me especialmente na elaboração de gráficos, bem como na exploração e descrição detalhada das variáveis analisadas".,
         linguagem='Liguagem Utilizada: Python',
         link="https://github.com/felipefagion/mackenzie_projeto_aplicado/blob/main/scripts/analise_exploratoria.ipynb"
     )
