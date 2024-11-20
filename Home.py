@@ -296,7 +296,7 @@ elif curriculo_button:
     st.write("- Inglês Básico")
 
     st.subheader("Currículo")
-    with open("Currículo - Felipe Fagion Longarini.docx", "rb") as file:
+    with open("curriculo.docx", "rb") as file:
         st.download_button(
             label="Baixar Currículo",
             data=file,
