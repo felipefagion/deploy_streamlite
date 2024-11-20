@@ -142,7 +142,7 @@ with col2:
     st.write("""
 Nascido em Americana, no coração do estado de São Paulo, aos 27 anos, tenho constrido minha trajetória e minha carreira com base em três pilares: a dedicação aos estudos, a entrega ao trabalho e os momentos de lazer. Cada um desses aspectos contribui para moldar quem sou e para onde desejo levar minha carreira e minha vida.
 
-Minhas horas de descanso são preenchidas com atividades que me trazem alegria e relaxamento, como assistir a partidas de futebol e me perder nas páginas de um bom livro. No entanto, é no universo dos games que encontro minha maior diversão, especialmente por ser uma oportunidade incrível de compartilhar momentos de descontração e estratégia com os amigos.
+Minhas horas de descanso são preenchidas com atividades que me trazem relaxamento, como assistir a partidas de futebol e me perder nas páginas de um bom livro. No entanto, é no universo dos games que encontro minha maior diversão, especialmente por ser uma oportunidade incrível de compartilhar momentos de descontração e estratégia com os amigos.
 
 Paralelamente, minha jornada acadêmica na Universidade Presbiteriana Mackenzie, cursando Ciência de Dados, é um caminho escolhido com propósito. Através dele, busco as ferramentas e o conhecimento necessário para interpretar o mundo através do universo dos dados.
 
