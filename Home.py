@@ -126,6 +126,8 @@ st.markdown("""
         Sobre Mim
     </h1>
 """, unsafe_allow_html=True)
+st.write('')
+st.write('')
 
 # Configuração das colunas
 col1, col2 = st.columns([0.7, 3])  # Ajuste proporcional para a imagem e o texto
