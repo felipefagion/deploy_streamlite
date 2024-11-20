@@ -138,12 +138,19 @@ with col1:
 # Biografia na segunda coluna
 with col2:
     st.write("""
-    Nascido em Americana, no coração do estado de São Paulo, aos 27 anos, construo minha trajetória com base em três pilares sólidos: a dedicação aos estudos, a entrega ao trabalho e pelos momentos de lazer. Cada um desses aspectos contribui para moldar quem sou e para onde desejo levar minha carreira e minha vida.
+Nascido em Americana, no coração do estado de São Paulo, aos 27 anos, construo minha trajetória com base em três pilares sólidos: a dedicação aos estudos, a entrega ao trabalho e os momentos de lazer. Cada um desses aspectos contribui para moldar quem sou e para onde desejo levar minha carreira e minha vida.
+
 Minhas horas de descanso são preenchidas com atividades que me trazem alegria e relaxamento, como assistir a partidas de futebol e me perder nas páginas de um bom livro. No entanto, é no universo dos games que encontro minha maior diversão, especialmente por ser uma oportunidade incrível de compartilhar momentos de descontração e estratégia com os amigos.
-Paralelamente, minha jornada acadêmica na Universidade Presbiteriana Mackenzie, cursando Ciência de Dados, é um caminho escolhido com propósito. Através dele, busco as ferramentas e o conhecimento necessário para interpretar o mundo através do mundo dos dados. Na Tenda Construtora, uma das gigantes do setor de construção civil no país, aplico esse conhecimento em um ambiente dinâmico e repleto de oportunidades. Lá, minhas responsabilidades vão desde a manutenção e análise de grandes volumes de dados até a criação de relatórios que embasam decisões estratégicas fundamentais para o negócio. Utilizo uma combinação de linguagens de programação como Python, consultas SQL para extrair informações de bancos de dados, a versatilidade do Excel e a visualização de dados com Power BI.
+
+Paralelamente, minha jornada acadêmica na Universidade Presbiteriana Mackenzie, cursando Ciência de Dados, é um caminho escolhido com propósito. Através dele, busco as ferramentas e o conhecimento necessário para interpretar o mundo através do universo dos dados.
+
+Na Tenda Construtora, uma das gigantes do setor de construção civil no país, aplico esse conhecimento em um ambiente dinâmico e repleto de oportunidades. Lá, minhas responsabilidades vão desde a manutenção e análise de grandes volumes de dados até a criação de relatórios que embasam decisões estratégicas fundamentais para o negócio. Utilizo uma combinação de linguagens de programação como Python, consultas SQL para extrair informações de bancos de dados, a versatilidade do Excel e a visualização de dados com Power BI.
+
 Essa rotina é equilibrada com um espírito de aprendizado contínuo e uma busca por inovação. Cada projeto, cada linha de código e cada análise é uma oportunidade de crescer não apenas como profissional, mas também como indivíduo. Acredito firmemente no poder dos dados de transformar indústrias e impulsionar mudanças significativas, e é com essa convicção que me dedico a cada tarefa que assumo.
+
 Minha biografia é, portanto, uma mistura de ambição profissional e paixões pessoais, tecendo uma história que é tão única quanto a jornada que escolhi trilhar. É com esse espírito que enfrento cada novo dia, sempre pronto para o próximo desafio.
 """)
+
 
 # Estilo para os ícones das redes sociais
 st.markdown("""
