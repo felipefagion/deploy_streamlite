@@ -137,20 +137,19 @@ with col1:
     image = Image.open("foto_pessoal.jfif")  # Substitua pelo caminho da sua imagem
     st.image(image, use_column_width=True)  # Ajusta a largura à coluna
 
-# Biografia na segunda coluna
 with col2:
     st.write("""
-Nascido em Americana, no coração do estado de São Paulo, aos 28 anos, tenho constrido minha trajetória e minha carreira com base em três pilares: a dedicação aos estudos, a entrega ao trabalho e os momentos de lazer. Cada um desses aspectos contribui para moldar quem sou e para onde desejo levar minha carreira e minha vida.
+Sou um profissional de **Ciência de Dados e Inteligência de Mercado**, com foco em transformar dados em estratégias que impulsionam resultados de negócio.  
+Atualmente atuo na **De Heus**, onde apoio as áreas **comercial e de marketing** no desenvolvimento de análises e dashboards que orientam decisões estratégicas de mercado — como **posicionamento competitivo, performance de vendas e comportamento do cliente**.  
 
-Minhas horas de descanso são preenchidas com atividades que me trazem relaxamento, como assistir a partidas de futebol e me perder nas páginas de um bom livro. No entanto, é no universo dos games que encontro minha maior diversão, especialmente por ser uma oportunidade incrível de compartilhar momentos de descontração e estratégia com os amigos.
+Tenho experiência na **automação de processos analíticos**, **integração de dados** e **criação de modelos e relatórios dinâmicos** utilizando Python, Excel e Power BI.  
+Busco constantemente aprimorar minha capacidade de traduzir dados complexos em **insights claros, acionáveis e com impacto real no negócio**.  
 
-Paralelamente, minha jornada acadêmica na Universidade Presbiteriana Mackenzie, cursando Ciência de Dados, é um caminho escolhido com propósito. Através dele, busco as ferramentas e o conhecimento necessário para interpretar o mundo através do universo dos dados.
+Minha trajetória inclui passagens por empresas como **Tenda Construtora** e **Móveis Planejados**, onde atuei na análise exploratória de dados, construção de dashboards interativos e otimização de processos por meio de automação.  
+Essas experiências me ensinaram o valor de unir técnica, estratégia e colaboração para gerar soluções que realmente fazem diferença.  
 
-Na Tenda Construtora, uma das gigantes do setor de construção civil no país, aplico esse conhecimento em um ambiente dinâmico e repleto de oportunidades. Lá, minhas responsabilidades vão desde a validação e manutenção de grandes volumes de dados até a criação de relatórios que apoiam decisões estratégicas fundamentais para o negócio. Utilizo uma combinação de linguagens de programação como Python e Excel para códigos e fórmulas de validação de dados, além de SQL para extrair informações de bancos de dados e construir novos indicadores.
-
-Essa rotina é equilibrada com um espírito de aprendizado contínuo e uma busca por inovação. Cada projeto, cada linha de código e cada análise é uma oportunidade de crescer não apenas como profissional, mas também como indivíduo. Acredito firmemente no poder dos dados de transformar indústrias e impulsionar mudanças significativas, e é com essa convicção que me dedico a cada tarefa que assumo.
-
-Minha biografia é, portanto, uma mistura de ambição profissional e paixões pessoais, tecendo uma história que é tão única quanto a jornada que escolhi trilhar. É com esse espírito que enfrento cada novo dia, sempre pronto para o próximo desafio.
+Além do ambiente profissional, valorizo momentos de lazer e equilíbrio. Sou apaixonado por **games, leitura e futebol**, hobbies que estimulam minha curiosidade, criatividade e raciocínio estratégico.  
+Acredito que **a união entre dados e propósito é o que diferencia profissionais que apenas analisam daqueles que transformam negócios** — e é com esse pensamento que sigo evoluindo a cada projeto.
 """)
 
 
