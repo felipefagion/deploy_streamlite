@@ -140,7 +140,7 @@ with col1:
 # Biografia na segunda coluna
 with col2:
     st.write("""
-Nascido em Americana, no coração do estado de São Paulo, aos 27 anos, tenho constrido minha trajetória e minha carreira com base em três pilares: a dedicação aos estudos, a entrega ao trabalho e os momentos de lazer. Cada um desses aspectos contribui para moldar quem sou e para onde desejo levar minha carreira e minha vida.
+Nascido em Americana, no coração do estado de São Paulo, aos 28 anos, tenho constrido minha trajetória e minha carreira com base em três pilares: a dedicação aos estudos, a entrega ao trabalho e os momentos de lazer. Cada um desses aspectos contribui para moldar quem sou e para onde desejo levar minha carreira e minha vida.
 
 Minhas horas de descanso são preenchidas com atividades que me trazem relaxamento, como assistir a partidas de futebol e me perder nas páginas de um bom livro. No entanto, é no universo dos games que encontro minha maior diversão, especialmente por ser uma oportunidade incrível de compartilhar momentos de descontração e estratégia com os amigos.
 
@@ -238,7 +238,6 @@ if projetos_button:
         linguagem='Liguagem Utilizada: Python', 
         link="https://github.com/felipefagion/varejo_analise_exploratoria/blob/main/projeto.ipynb"
     )
-# Se o botão "Currículo" for pressionado
 elif curriculo_button:
     # Mostrando as principais informações do currículo
     st.write("""
@@ -252,10 +251,10 @@ elif curriculo_button:
     # Síntese de conhecimentos
     st.write("### Síntese de Conhecimentos")
     st.write("""
-    - **Desenvolvimento e Integração de Modelos de Dados:** Experiência na criação e implementação de modelos de dados escaláveis e dinâmicos.
-    - **Automatização de Processos:** Competências em automação de fluxos de trabalho utilizando Python e Excel.
-    - **Visualização de Dados:** Proficiente em Power BI e bibliotecas Python para dashboards interativos.
-    - **Interpretação de Resultados e Insights Estratégicos:** Habilidade para transformar grandes volumes de dados em insights.
+    - **Desenvolvimento e Integração de Modelos de Dados:** Experiência na criação e implementação de modelos de dados escaláveis e dinâmicos para suportar a tomada de decisões.
+    - **Automatização de Processos:** Competências em automatizar fluxos de trabalho de análise de dados e geração de relatórios utilizando ferramentas como Python e Excel, otimizando o tempo de execução das atividades operacionais.
+    - **Visualização de Dados:** Proficiente em utilizar ferramentas de visualização como Power BI e bibliotecas de visualização Python para criar dashboards e relatórios interativos, transformando dados complexos em insights acionáveis.
+    - **Interpretação de Resultados e Insights Estratégicos:** Capacidade de interpretar grandes volumes de dados, gerando insights valiosos que direcionam estratégias de negócios.
     """)
 
     # Formação Acadêmica
@@ -265,30 +264,40 @@ elif curriculo_button:
     # Experiência Profissional
     st.write("### Trajetória Profissional")
     st.write("""
-    - **Tenda Construtora**  
-    Estágio – Cientista de Dados | 06/2024 – 11/2024  
-    Preparação de dados, elaboração de relatórios, e desenvolvimento de modelos de dados para apoiar a tomada de decisões.
+    **De Heus**  
+    *Assistente de Inteligência de Mercado* | 12/2024 – Atualmente  
+    - Desenvolvimento de estratégias de mercado baseadas em dados, com suporte à área comercial e de marketing, através da tradução de grandes volumes de dados em insights acionáveis.  
+    - Mapeamento de concorrentes, análise de clientes e estudos de market share, contribuindo para o posicionamento estratégico da empresa nos diferentes segmentos em que atua.  
+    - Criação de dashboards interativos e relatórios analíticos utilizando Power BI e Streamlit, facilitando a visualização e o acompanhamento de KPIs comerciais e de mercado.  
+    - Medição e avaliação do impacto das estratégias de mercado por meio de indicadores de desempenho, permitindo ajustes rápidos e baseados em dados.  
+    - Análise e monitoramento do comportamento do cliente por meio de plataformas digitais, com foco em segmentação, personalização de ações e aumento da eficiência comercial.  
+    - Implementação de melhorias no sistema CRM, promovendo maior agilidade no processo de vendas e redução de falhas operacionais.  
+    - Automatização de processos relacionados a marketing e inteligência de mercado, com foco em escalabilidade, produtividade e acurácia.  
 
-    - **Móveis Planejados**  
-    Freelancer - Assistente Administrativo e Mídias Sociais | 02/2024 – 05/2024  
-    Atendimento a clientes, promoção de marcas em mídias sociais e gestão de campanhas publicitárias.
+    **Tenda Construtora**  
+    *Estágio – Cientista de Dados* | 06/2024 – 09/2024  
+    - Apoio em atividades operacionais da área de dados, incluindo atualização de bases, validações e tratamento de grandes volumes de dados, garantindo qualidade, integridade e confiabilidade das informações utilizadas nos processos de negócio.  
+    - Realização de análises exploratórias e descritivas, com foco em gerar insights e apoiar decisões estratégicas, otimizando processos internos.  
+    - Desenvolvimento de dashboards interativos com Streamlit, utilizando Python para visualização de dados, geração de relatórios dinâmicos e apresentações para stakeholders.  
+    - Criação de automações para melhoria de fluxos e redução de tarefas manuais, contribuindo para a eficiência e agilidade dos projetos da área.  
 
-    - **A.A de Melo & CIA LTDA**  
-    Balconista | 06/2013 – 08/2023  
-    Gestão de relacionamento com clientes e organização do estoque.
+    **Móveis Planejados**  
+    *Freelancer – Assistente Administrativo e Mídias Sociais* | 09/2023 – 05/2024  
+    - Criação de dashboards em Power BI, planilhas em Excel e uso de Python para análise de indicadores de vendas e performance comercial.  
+    - Geração de relatórios e insights para apoiar decisões estratégicas e identificar oportunidades de melhoria nos resultados.  
+    - Apoio na gestão de mídias sociais, produção de conteúdo (incluindo vídeos) e atendimento ao cliente, fortalecendo a presença digital da empresa.  
+    - Atuação híbrida entre áreas administrativas, comerciais e de marketing, com forte foco em organização, automação e visualização de dados.  
     """)
 
     # Cursos e Certificações
     st.write("### Cursos e Certificações")
     st.write("""
-    - Pacote Office | Prime Cursos (2024)
-    - Fundamentos do Aprendizado de Máquina | Dio (2024)
-    - Excel para Análise de Dados | Preditiva (2024)
-    - Tableau de A a Z Business Analytics | Udemy (2024)
-    - SQL Avançado para Análise de Dados com Bigquery | Udemy (2024)
-    - Introdução a Inteligência Artificial | Science Academy (2024)
-    - Microsoft Power BI para Business Intelligence e Data Science | Data Science Academy (2024)
-    - Linguagem Python para Análise de Dados e Ciência de Dados | Data Science Academy (2023)
+    - Linguagem Python para Análise de Dados e Ciência de Dados | Data Science Academy (2023)  
+    - Microsoft Power BI para Business Intelligence e Data Science | Data Science Academy (2024)  
+    - SQL Avançado para Análise de Dados com BigQuery | Udemy (2024)  
+    - Tableau de A a Z Business Analytics | Udemy (2024)  
+    - Excel para Análise de Dados | Preditiva (2024)  
+    - Pacote Office | Prime Cursos (2024)  
     """)
 
     # Idiomas
