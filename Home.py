@@ -139,17 +139,23 @@ with col1:
 
 with col2:
     st.write("""
-Sou um profissional de **Ciência de Dados e Inteligência de Mercado**, com foco em transformar dados em estratégias que impulsionam resultados de negócio.  
-Atualmente atuo na **De Heus**, onde apoio as áreas **comercial e de marketing** no desenvolvimento de análises e dashboards que orientam decisões estratégicas de mercado — como **posicionamento competitivo, performance de vendas e comportamento do cliente**.  
+Sou um profissional de **Ciência de Dados e Inteligência de Mercado**, movido pela curiosidade e pela vontade de gerar impacto real através das análises.  
+Acredito que cada dado carrega uma história — e meu papel é traduzi-la em **estratégias que impulsionam o crescimento e orientam decisões de valor**.
 
-Tenho experiência na **automação de processos analíticos**, **integração de dados** e **criação de modelos e relatórios dinâmicos** utilizando Python, Excel e Power BI.  
-Busco constantemente aprimorar minha capacidade de traduzir dados complexos em **insights claros, acionáveis e com impacto real no negócio**.  
+Atualmente, atuo na **De Heus**, apoiando as áreas **comercial e de marketing** no desenvolvimento de **painéis analíticos, estudos de mercado e análises de performance**.  
+Meu foco está em entregar **insights acionáveis** sobre **posicionamento competitivo, comportamento do cliente e rentabilidade de produtos**, contribuindo diretamente para o planejamento estratégico e as metas de negócio.
 
-Minha trajetória inclui passagens por empresas como **Tenda Construtora** e **Móveis Planejados**, onde atuei na análise exploratória de dados, construção de dashboards interativos e otimização de processos por meio de automação.  
-Essas experiências me ensinaram o valor de unir técnica, estratégia e colaboração para gerar soluções que realmente fazem diferença.  
+Tenho sólida experiência na **automação de processos analíticos**, **tratamento e integração de dados** e **construção de modelos e dashboards dinâmicos** com ferramentas como **Python, Power BI e Excel**.  
+Busco constantemente aprimorar minha capacidade de unir técnica, clareza e propósito — traduzindo dados complexos em histórias compreensíveis e decisões inteligentes.
 
-Além do ambiente profissional, valorizo momentos de lazer e equilíbrio. Sou apaixonado por **games, leitura e futebol**, hobbies que estimulam minha curiosidade, criatividade e raciocínio estratégico.  
-Acredito que **a união entre dados e propósito é o que diferencia profissionais que apenas analisam daqueles que transformam negócios** — e é com esse pensamento que sigo evoluindo a cada projeto.
+Minha trajetória inclui experiências em empresas como **Tenda Construtora** e **Móveis Planejados**, onde atuei na **análise exploratória de dados**, **criação de indicadores de desempenho (KPIs)** e **otimização de processos** por meio da automação.  
+Essas vivências reforçaram minha visão de que o verdadeiro diferencial está em **combinar domínio técnico, visão de negócio e colaboração entre equipes**.
+
+Sou uma pessoa que acredita no poder dos detalhes, da consistência e do aprendizado contínuo.  
+Fora do ambiente profissional, gosto de equilibrar a rotina com momentos de lazer — sou apaixonado por **games, leitura e futebol**, que me ajudam a desenvolver raciocínio estratégico e criatividade.  
+
+Mais do que analisar números, busco **compreender pessoas, mercados e contextos**.  
+Porque, no fim, acredito que **dados com propósito têm o poder de transformar negócios — e também carreiras**.
 """)
 
 
